@@ -7,10 +7,12 @@ npm i -g typescript
 NodeJS üzerinden TypeScript’i kurar. “g” parametresi projeye özel değil global kurulumu yapar.
 
 # npm install -g @angular/cli
-NodeJS üzerinden Angular’i kurar. (“install” parametresi ile “i” parametresi aynı işlemi yapar.) “g” parametresi projeye özel değil global kurulumu yapar.
+NodeJS üzerinden Angular’i kurar. Projeye özel değil global kurulumu yapar.
 
 npm unistall -g angular/cli
+
 npm cache clean
+
 npm install -g @angular/cli@lastest
 Güncel sürümü tekrar kurmak için mevcut Angular Sürümü kaldırıp cache’i temizledikten sonra tekrar kurabilirsiniz.
 
@@ -36,15 +38,4 @@ BileşenAdi ile yeni bir bileşen oluşturulması sağlar. “g” yerine “gen
 ng help generate
 NG Generate komutu hakkında yardım dokümantasyonunu görüntüler.
 
-NG LINT Komutu
-NG TEST Komutu
-NG e2e Komutu
-NG BUILD Komutu
-ng build --prod
-# Uygulamayı yayınlama öncesi derleyip hazırlar. Gerekli optimizasyonları yapar. Derlenen dosyaları DIST klasörü içerisine toplar. –prod parametresi, uygulamayı prodüksiyon için özel hazırlar.
 
-
-
-# NG UPDATE Komutu
-ng update @angular/cli
-Angular CLI’yı güncellemek için kullanılır. Local’deki Angular projesinin sürümünü makinada geçerli olan sürüme yükseltir.
