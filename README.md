@@ -1,6 +1,6 @@
 # Employeemanagerapp
 
-Angular projeci için gerekli bazı komutlar
+Angular projesi için gerekli bazı komutlar
 
 # NPM INSTALL Komutu
 npm i -g typescript
